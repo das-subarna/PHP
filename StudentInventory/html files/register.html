@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Student Inventory</title>
+</head>
+
+<body class="bg-light">
+    <!-- navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow">
+        <div class="container">
+            <h6 class="navbar-brand text-center text-dark"> <span class="bg-dark text-light rounded p-2">Student</span>
+                Inventory</h6>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+    <!-- navbar end -->
+    <br>
+    <div class="container col-xl-6 col-lg-7 bg-white rounded shadow mt-4">
+        <div class="row p-4">
+            <div class="col">
+				<h3>Register</h3>
+				<hr>
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="fname">First Name</label>
+                            <input type="text" class="form-control" id="fname" placeholder="Enter First Name"
+                                name="fname">
+
+                        </div>
+                        <div class="form-group col-md-6">
+
+                            <label for="lname">Last Name</label>
+                            <input type="text" class="form-control" placeholder="Enter Last Name" name="lname">
+
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputEmail4">Email</label>
+                            <input type="email" class="form-control" placeholder="Enter Email">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputPassword4">Mobile</label>
+                            <input type="tel" class="form-control" placeholder="10 Digit Mobile No">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="address" class="for">Address</label>
+                        <input type="text" class="form-control" placeholder="Enter Address (upto 100 chars)">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="selclass">Select Class</label>
+                            <select class="form-control" id="selclass">
+                                <option>I</option>
+                                <option>II</option>
+                                <option>III</option>
+                                <option>IV</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="selsec">Select Section</label>
+                            <select class="form-control" id="selsec">
+                                <option>A</option>
+                                <option>B</option>
+                                <option>C</option>
+                                <option>D</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" placeholder="Enter Password">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="confpassword">Confirm Password</label>
+                            <input type="password" class="form-control" placeholder="Confirm Password">
+                        </div>
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-dark button ">Register Now</button>
+                    <p class="register"> <small>Already registered? <a href="index.html"><b>Login Now</b></a>!</small>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <style>
+        .button {
+            width: 40%;
+            float: left;
+            text-align: center;
+            background-color: rgb(3, 59, 105);
+            cursor: pointer;
+
+        }
+
+        .button:hover {
+            font-size: 1.1em;
+            margin-top: -0.5%;
+            margin-bottom: -0.5%;
+        }
+
+        .register {
+            text-align: center;
+            padding-top: 10px;
+        }
+    </style>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
